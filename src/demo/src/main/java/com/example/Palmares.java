@@ -41,7 +41,31 @@ public class Palmares {
         Palmares palmares = new Palmares(5, 4, 7, fighter2, league);
 
         System.out.println(palmares);
-    }
-        
-}
+        System.out.println("Fighter: " + palmares.getFighter().getFightersName());
+
+        if(MatchType.Amical == MatchType.Amical) {
+            palmares.victories = palmares.getVictories();
+            palmares.defeats = palmares.getDefeats();
+            palmares.draws = palmares.getDraws();
+        }
+        if(MatchType.Championnat == MatchType.Championnat) {
+            if(palmares.getVictories(){
+                Palmares.victories = palmares.getVictories() + 1;
+            }) else if{
+                Palmares.defeats = palmares.getDefeats() + 1;
+            }
+            } else {
+                Palmares.draws = palmares.getDraws() + 1;
+            }
+        }
+        if(MatchType.Officiel == MatchType.Officiel) {
+            if(palmares.getVictories(){
+                palmares.victories = palmares.getVictories() + 1;
+            }) else if{
+                palmares.defeats = palmares.getDefeats() + 1;
+            } else {
+                palmares.draws = palmares.getDraws() + 1;
+            }
+        }
+}        
 
